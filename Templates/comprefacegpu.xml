@@ -84,7 +84,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  </Environment>
   <Labels/>
   <Config Name="WebUI HTTP Port" Target="80" Default="8000" Mode="tcp" Description="Container Port: 8000" Type="Port" Display="always" Required="true" Mask="false">8800</Config>
 </Container>
