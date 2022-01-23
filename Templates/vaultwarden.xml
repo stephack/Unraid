@@ -5,7 +5,6 @@
   <Registry>https://hub.docker.com/r/vaultwarden/server/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  </Support>
   <Project>https://github.com/dani-garcia/vaultwarden/</Project>
   <Branch>
     <Tag>latest</Tag>
@@ -40,7 +39,7 @@
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:80]/admin</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/stephack/Unraid/main/Templates/vaultwarden.xml</TemplateURL>
-  </Icon>
+  <Icon>https://avatars.githubusercontent.com/u/15990069?s=200&v=4</Icon>
   <Config Name="WebUI HTTP Port" Target="80" Default="4743" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Storage" Target="/data" Default="/mnt/user/appdata/vaultwarden" Mode="rw" Description="Container Path: /data" Type="Path" Display="advanced" Required="true" Mask="false"/>
   <Config Name="SIGNUPS_ALLOWED" Target="SIGNUPS_ALLOWED" Default="true|false" Description="Container Variable: Signups" Type="Variable" Display="always" Required="false" Mask="false"/>
