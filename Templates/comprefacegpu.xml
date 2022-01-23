@@ -85,4 +85,5 @@
   </Data>
   <Labels/>
   <Config Name="WebUI HTTP Port" Target="80" Default="8000" Mode="tcp" Description="Container Port: 8000" Type="Port" Display="always" Required="true" Mask="false">8800</Config>
+  <Config Name="Data Folder" Target="/var/lib/postgresql/data" Default="" Mode="rw" Description="Container Path: /var/lib/postgresql/data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/compreface</Config>
 </Container>
