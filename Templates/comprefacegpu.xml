@@ -7,7 +7,6 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  </Support>
   <Project>https://github.com/exadel-inc/CompreFace</Project>
   <Overview>&#xD;
   [b]CompreFace is a leading free and open-source face recognition system [/b]  [br] &#xD;
